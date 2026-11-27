@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Formation" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0">
+    <description>Regles ciblees pour la demonstration</description>
+    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable"/>
+    <rule ref="category/java/errorprone.xml/EmptyCatchBlock"/>
+    <rule ref="category/java/design.xml/CyclomaticComplexity">
+        <properties>
+            <property name="methodReportLevel" value="5"/>
+        </properties>
+    </rule>
+</ruleset>

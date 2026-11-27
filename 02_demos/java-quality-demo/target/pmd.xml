@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2026-11-27T10:02:34.478">
+<file name="C:\Users\admin\Desktop\demo_tools\java-quality-demo\src\main\java\org\example\PaymentService.java">
+<violation beginline="8" endline="8" begincolumn="16" endcolumn="19" rule="CyclomaticComplexity" ruleset="Design" package="org.example" class="PaymentService" method="fee" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'fee(String)' has a cyclomatic complexity of 5.
+</violation>
+<violation beginline="28" endline="29" begincolumn="11" endcolumn="10" rule="EmptyCatchBlock" ruleset="Error Prone" package="org.example" class="PaymentService" method="parseAmount" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+</pmd>
