@@ -1,0 +1,39 @@
+### Reset
+POST http://localhost:8080/demo/reset
+
+### Create
+POST http://localhost:8080/orders
+X-User: seller
+Content-Type: application/json
+
+{"customerId":"C1","productId":"P1","quantity":2}
+
+### Confirm
+POST http://localhost:8080/orders/O1/confirm
+X-User: seller
+
+### Configure two failures
+POST http://localhost:8080/demo/provider
+Content-Type: application/json
+
+{"temporaryFailures":2,"permanentFailure":false}
+
+### Pay
+POST http://localhost:8080/orders/O1/pay
+X-User: finance
+
+### Refund
+POST http://localhost:8080/orders/O1/refund
+X-User: finance
+
+### Audit
+GET http://localhost:8080/audit
+
+### Metrics
+GET http://localhost:8080/metrics
+
+### Provider stats
+GET http://localhost:8080/demo/provider
+
+### Stock
+GET http://localhost:8080/stocks/P1

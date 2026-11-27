@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: shopflow.ShopFlowTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.101 s -- in shopflow.ShopFlowTest
